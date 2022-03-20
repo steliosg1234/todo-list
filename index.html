@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>notepad project</title>
+
+    <style>
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <h2> Notepad project </h2>
+    </div>
+    <div>
+        <h5>Note title : </h5>
+        <input type="text" id="title" placeholder="Enter a title" />
+    </div>
+    <div>
+        <h5>Note : </h5>
+        <textarea type="text" rows="4" id="note"> </textarea>
+    </div>
+    <div>
+        <br>
+        <button onclick="submit()">Submit</button>
+    </div>
+
+</body>
+
+
+<script>
+    function submit() {
+        var title = document.getElementById("title").value;
+        var note = document.getElementById("note").value;
+
+        if ((title == '') || (note == '')) {
+            alert('simplirose ta pedia');
+        }
+
+        console.log("Title = " + title);
+        console.log("Note = " + note);
+    }
+</script>
+
+</html>

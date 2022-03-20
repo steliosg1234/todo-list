@@ -1,0 +1,22 @@
+    body {
+        font-size: 40px;
+    }
+    button {
+        color:blueviolet;
+    }
+
+     .first_button {
+        background-color: yellow;
+    }
+
+    .second_button {
+        background-color: blue;
+    }
+
+    .first_team {
+        font-size: 20px;
+    }
+
+    .second_team {
+        font-size: 15px;
+    }
